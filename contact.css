@@ -1,0 +1,107 @@
+.contact .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 2fr));
+    gap: 2rem;
+    text-align: center;
+}
+
+.contact .box-container .box{
+    background:white;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:2px solid black;
+    padding: 2.5rem;
+}
+
+.contact .box-container .box:hover{
+    box-shadow: 10px 10px 20px grey;
+}
+
+.contact .box-container .box i{
+    color: orange;
+    font-size: 5rem;
+    padding-bottom: .5rem;
+    line-height: 1.8;
+}
+
+.contact .box-container .box h3{
+    color: black;
+    font-size: 3.5rem;
+    padding: 1rem 0;
+}
+
+.contact .box-container .box p{
+    color: black;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.form .container form{
+    flex: 1 1 45rem;
+    background: white;
+    border:2px solid black;
+    box-shadow: var(--box-shadow); 
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.form .container form h3{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: black;
+    font-size: 3.6rem;
+    letter-spacing: .4rem;
+    color: orange;
+}
+
+.form .container form .box{
+    width: 100%;
+    margin: 0.7rem 0;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    font-size: 1.6rem;
+    color: red;
+    text-transform: none; 
+    padding: 1rem;
+    
+}
+
+.form .container form .problem{
+    width: 100%;
+    margin-top: 0.7rem;
+    border: 2px solid black;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    color: red;
+    text-transform: none;
+    padding-bottom: 10rem;
+}
+#dialogBox {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+#dialogBox p{
+    font-size: 15px;
+}
+#dialogBox button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#dialogBox button:hover {
+    background-color: #45a049;
+}
